@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-secondary">
+
+    <div class="hero mt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-around border-bottom text-white mb-3 p-3 button-box">
+                <button id="btn1" class="btn btn-lg shadow-none border-0" onclick="displayAbout()"><i
+                        class="far fa-address-card"></i> About Me </button>
+
+                <button id="btn2" class="btn btn-lg shadow-none border-0 " onclick="displayEducation()"><i
+                        class="fas fa-university"></i> Education </button>
+
+                <button id="btn3" class="btn btn-lg shadow-none border-" onclick="displayWorks()"><i
+                        class="fas fa-laptop-code"></i> Works </button>
+
+
+
+                <button id="btn4" class="btn btn-lg shadow-none border-0" onclick="displayContact()"><i
+                        class="fas fa-phone-alt"></i> Contact Info </button>
+
+            </div><!-- nav buttons -->
+        </div><!-- container -->
+
+        <div class="screens py-5">
+
+            <div class="content text-white " id="about">
+                <div class="container-fluid px-5">
+                    <div class="row px-5">
+                        <div class="col-md-8 col-sm-6 h-50 mx-auto">
+                            <h1 class="h1 pb-3"> Al-Garaiehy Emad Fekry </h1>
+                            <h3 class="ml-4"> <i class="fas fa-briefcase Icon mr-2"></i> Web Developer</h3>
+                            <h3 class="ml-4"> <i class="fas fa-map-marked-alt Icon mr-2"></i> Al-Daqahlia, Mit Salsil,
+                                Al-Omda St. </h3>
+                        </div><!-- left-col -->
+                        <div class="col-md-4 col-sm-6 h-50 my-auto">
+                            <img src="imgs/Geho.png" class="img-fluid rounded-circle w-75 mx-auto">
+                        </div><!-- right-col -->
+                    </div><!-- row -->
+                </div><!-- container-fluid -->
+            </div><!-- about-me -->
+
+            <div class="content text-white " id="education">
+                <div class="container-fluid px-5">
+                    <div class="row px-5">
+                        <div class="col-md-8 col-sm-6 h-50 mx-auto">
+                            <h2 class="h2 mb-4"> Education </h2>
+                            <h3 class="ml-4"><i class="fas fa-university Icon mr-3"></i> Mansoura University </h3>
+                            <h3 class="ml-4"><i class="fas fa-school Icon mr-2"></i> Faculty Of Computer And Information</h3>
+                            <h3 class="ml-4"><i class="fas fa-door-open Icon mr-2"></i> Department of Information Technology</h3>
+
+                        </div><!-- left-col -->
+                        <div class="col-md-4 col-sm-6 h-50 my-auto">
+                            <img src="imgs/edu.jpg" class="img-fluid w-100 rounded mx-auto">
+                        </div><!-- right-col -->
+                    </div><!-- row -->
+                </div><!-- container-fluid -->
+            </div><!-- Education -->
+
+            <div class="content text-white " id="works">
+                <div class="container-fluid px-5">
+                    <div class="row px-5">
+                        <div class="col-md-8 col-sm-6 h-50 mx-auto">
+                            <h2 class="h2 mb-4"> Works </h2>
+                            <h3 class="ml-4"><i class="fas fa-briefcase Icon mr-3"></i> CV Template with Bootstrap : <a
+                                    href="https://algaraiehy.github.io/CV-page.github.io/" target="_blanck"> project link</a></h3>
+
+                        </div><!-- left-col -->
+                        <div class="col-md-4 col-sm-6 h-50 my-auto">
+                            <img src="imgs/work.jpg" class="img-fluid w-100 mx-auto rounded">
+                        </div><!-- right-col -->
+                    </div><!-- row -->
+                </div><!-- container-fluid -->
+            </div><!-- Works -->
+
+            <div class="content text-white " id="certif">
+                <div class="container-fluid px-5">
+                    <div class="row px-5">
+                        <div class="col-md-12">
+                            
+
+                        </div><!-- col -->
+                    </div><!-- row -->
+                </div><!-- container-fluid -->
+            </div><!-- certification -->
+
+
+
+
+
+        
+            <div class="content text-white " id="contact">
+                <div class="container-fluid px-5">
+                    <div class="row px-5">
+                        <div class="col-md-8 col-sm-6 h-50 mx-auto">
+                            <h2 class="h2 mb-4"> Contact Info </h2>
+                            <h3 class="ml-4"><i class="fas fa-mobile-alt Icon mr-3"></i> +20 1286903169 </h3>
+                            <h3 class="ml-4"><i class="fab fa-github Icon mr-2"></i> <a
+                                    href="https://github.com/AlGaraiehy"> Github link</a></h3>
+                            <h3 class="ml-4"><i class="fab fa-facebook Icon mr-2"></i> Geho Emad</h3>
+                            <h3 class="ml-4"><i class="fab fa-google Icon mr-2"></i> Algaraiehyemad2901@gmail.com
+                            </h3>
+                        </div><!-- left-col -->
+
+                        <div class="col-md-4 col-sm-6 h-50 my-auto">
+                            <img src="imgs/contact.jpg" class="img-fluid w-100 mx-auto rounded">
+                        </div><!-- right-col -->
+                    </div><!-- row -->
+                </div><!-- container-fluid -->
+            </div><!-- Contact Info -->
+        </div><!-- screens -->
+    </div><!-- hero -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

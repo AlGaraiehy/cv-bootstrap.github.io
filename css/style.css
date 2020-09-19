@@ -1,0 +1,36 @@
+
+.button-box button{
+    color: #fff;
+}
+.button-box button:hover{
+    color: #fff;
+}
+.button-box button:hover i{
+    color:  #02fde8;
+}
+.Icon{
+    color: #02fde8;
+}
+.h1{
+    font-family: 'Source Serif Pro', serif;
+}
+.h2{
+    font-weight: bold;
+    color: #02fde8;
+}
+
+.hero{
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    align-items: center;
+    position: absolute;
+    transform: translateX(100%);
+    transition: .5s;
+}
+
+#about{
+    transform: translateX(0%);
+}
